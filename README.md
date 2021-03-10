@@ -2,6 +2,7 @@
 
 Api desenvolvida com express que cadastra usuarios e endereços no banco de dados postgresql.
 
+![mostra o token gerado](tokengerado.png)
 
 ## Setup
 
@@ -27,7 +28,7 @@ contem rotas de criação e visualização de usuários e endereços, com um usu
 é feita apenas com algum endereço de email cadastrado, sem necessitar de senha, mas sem o token gerado pelo usuario, não é possivel visualizar a lista completa de usuários.
 Avalidação de e-mail dos usuarios é feita pelo @IsEmail do Typeorm, e as etnias são cadastradas no banco com o formato ENUM.
  
-![mostra o token gerado](tokengerado.png)
+
 
 ![mostra a lista de usuarios guardada](criacaodeusuarios.png)
 
