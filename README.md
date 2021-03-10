@@ -29,7 +29,11 @@ Avalidação de e-mail dos usuarios é feita pelo @IsEmail do Typeorm, e as etni
  
 
 
-![mostra a lista de usuarios guardada](criacaodeusuarios.png)
+![mostra a lista de usuarios guardada](criacaodeususarios.png)
+mostra a criação de usuarios e a lista de usúarios guardados.
 
+
+![mostra o token gerado](tokengerado.png)
+mostra o token gerado para a sessão.
 
 Cauê Rafael Burgardt
