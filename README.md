@@ -2,7 +2,6 @@
 
 Api desenvolvida com express que cadastra usuarios e endereços no banco de dados postgresql.
 
-![mostra o token gerado](tokengerado.png)
 
 ## Setup
 
