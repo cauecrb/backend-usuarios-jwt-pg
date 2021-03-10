@@ -23,6 +23,16 @@ export default {
         return response.json(user);
     },
 
+    async delete(request: Request, response: Response){
+        const {id} = request.params;
+        const usersRepository = getRepository(User);
+
+        await usersRepository.delete(id);
+
+        const users = await usersRepository.find();
+
+        return response.json(users);
+    },
 
     //controller para criar um usuario no banco
     async create(request: Request, response: Response) {

@@ -23,6 +23,17 @@ export default {
         return response.json(endereco);
     },
 
+    async delete(request: Request, response: Response){
+        const {id} = request.params;
+        const enderecosRepository = getRepository(Endereco);
+
+        await enderecosRepository.delete(id);
+
+        const enderecos = await enderecosRepository.find();
+
+        return response.json(enderecos);
+    },
+
 
     //controller para criar um usuario no banco
     async create(request: Request, response: Response) {
